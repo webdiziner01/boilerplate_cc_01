@@ -20,7 +20,5 @@ class HomeController extends Controller
     }
 
 
-    public function testMail(Request $request){
-        Mail::to($request->user())->send(new PasswordUpdated());
-    }
+
 }

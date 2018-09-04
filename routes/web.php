@@ -41,5 +41,3 @@ Route::group(['prefix'=> 'account', 'middleware' => ['auth'], 'as' => 'account.'
 
 });
 
-
-Route::get('test','HomeController@testMail');
